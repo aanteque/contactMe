@@ -29,6 +29,23 @@
         width: 100%;
       }
 
+      table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+      }
+
+      td,
+      th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+      }
+
+      tr:nth-child(even) {
+        background-color: #dddddd;
+      }
+
       nav {
         display: flex;
         align-items: center;
@@ -374,6 +391,7 @@
         z-index: 99999;
 
       }
+
       .picImage {
         position: absolute;
         top: 44%;
@@ -434,8 +452,6 @@
         transform: rotate(19deg);
         z-index: 99999;
       }
-
-
     </style>
 
 
@@ -486,9 +502,9 @@
     <img src="rCurl.png" alt="paperairplane" class="curlImage">
 
     <img src="midCurl.png" alt="paperairplane" class="midImage">
-    
+
     <img src="lCurl.png" alt="paperairplane" class="leftImage">
-    
+
 
     <div class="rectangle2">
     </div>
